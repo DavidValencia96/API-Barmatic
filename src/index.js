@@ -4,8 +4,10 @@ import employeesRoutes from './routes/employees.routes.js'
 
 const app = express()
 
-app.use(indexRoutes)
-app.use(employeesRoutes)
+app.use(express.json())
+
+app.use('/v1',indexRoutes)
+app.use('/v1',employeesRoutes)
 
 
 app.listen(3000)
