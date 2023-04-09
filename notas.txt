@@ -1,0 +1,2 @@
+URL PROD = https://api-barmatic-production.up.railway.app/v1/
+URL PROD MYSQL = https://railway.app/project/b4beeef4-6fdd-45c9-940f-29e968c06a1e/plugin/47362736-d2a7-4595-b42c-0c84bc326633
