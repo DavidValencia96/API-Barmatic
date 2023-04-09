@@ -15,6 +15,8 @@ INSERT INTO employee VALUES
     (3, 'Ana', 1090),
     (4, 'Estefania', 104);
 
+
+
 -- Tablas
 CREATE TABLE roll (
     id_roll INT(11) NOT NULL,
@@ -22,10 +24,9 @@ CREATE TABLE roll (
     PRIMARY KEY(id_roll)
 );
 
-INSERT INTO `roll` (`name`) VALUES ('Root');
-INSERT INTO `roll` (`name`) VALUES ('Admin');
-INSERT INTO `roll` (`name`) VALUES ('user');
-INSERT INTO `roll` (`name`) VALUES ('Teacher');
+INSERT INTO `roll` (`id_roll`, `name`) VALUES (1, 'Root');
+INSERT INTO `roll` (`id_roll`, `name`) VALUES (2, 'Admin');
+INSERT INTO `roll` (`id_roll`, `name`) VALUES (3, 'user');
 
 
 
