@@ -5,6 +5,7 @@ import roll from './routes/roll.routes.js'
 import users from './routes/users.routes.js'
 import category from './routes/category.routes.js'
 import score from './routes/score.routes.js'
+import question from './routes/question.routes.js'
 
 
 const app = express()
@@ -17,6 +18,7 @@ app.use('/v1',roll)
 app.use('/v1',users)
 app.use('/v1',category)
 app.use('/v1',score)
+app.use('/v1',question)
 
 // mensaje para cuando no se encuentre el endpoint
 app.use((req, res, next) => {

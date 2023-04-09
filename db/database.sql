@@ -80,6 +80,7 @@ CREATE TABLE question (
     imageD VARCHAR(50) DEFAULT NULL,
     answer VARCHAR(60) DEFAULT NULL,
     date DATE NOT NULL,
+    active INT(11) DEFAULT NULL,
     id_category INT(11) DEFAULT NULL,
     PRIMARY KEY(id_question),
     FOREIGN KEY (id_category) REFERENCES category (id_category)
